@@ -8,4 +8,7 @@ let animals = [
     "basalisk",
   ];
   
-let bListAnimals = // Your 'filter' code here.
+let bListAnimals = animals.filter((bAnimals)=>{
+  return bAnimals[0] == 'b'
+})
+ // Your 'filter' code here.
